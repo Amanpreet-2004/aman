@@ -1,0 +1,26 @@
+<script>
+function show(){
+    console.log("hello")
+    m.innerHTML="<h2> hello"
+}
+function show1(){
+    console.log("welcome")
+    m.innerHTML="<h2> Welcome"
+}
+function show2(){
+    console.log("HTML")
+    m.innerHTML="<h2> HTML"
+}
+
+function show3(){
+    console.log("javascript")
+    m.innerHTML="<h2> javascript"
+}
+
+
+</script>
+<div id="m"></div>
+<input type="button" value="first" onclick="show()">
+<input type="button" value="second" onclick="show1()">
+<input type="button" value="third" onmouseover="show2()">
+<input type="button" value="fourth" onmouseout="show3()">
